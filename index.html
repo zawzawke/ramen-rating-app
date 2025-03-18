@@ -7,6 +7,43 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
+
+    <h1>Ramen Rating</h1>
+    
+    <div id="ramen-menu"></div> 
+    
+    <div id="ramen-detail">
+        <h3 id="ramen-name"></h3> 
+        <h3 id="ramen-restaurant"></h3>
+        <img id="ramen-image" src="" alt="Your image goes here">
+        <h3>Rating: <span id="ramen-rating"></span></h3>
+        <h3>Comment <span id="ramen-comment"></span></h3>
+    </div>
+    
+    <h2>Add a New Ramen</h2>
+    <form id="new-ramen">
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="restaurant">Restaurant:</label>
+        <br>
+        <input type="text" id="restaurant" name="restaurant" required>
+        <br>
+        <label for="image">Image URL:</label>
+        <br>
+        <input type="text" id="image" name="image" required>
+        <br>
+        <label for="rating">Rating:</label>
+        <br>
+        <input type="number" id="rating" name="rating" min="1" max="5" required>
+        <br>
+        <label for="comment">Comment:</label>
+        <br>
+        <input type="text" id="comment" name="comment">
+        <br>
+        <button type="submit">Create</button>
+    </form>
     
 
     <script src="./index.js" ></script>

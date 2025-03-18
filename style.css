@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+
+h1 {
+    color: white;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+
+#ramen-menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-color: orangered;
+    margin-bottom: 20px;
+}
+
+#ramen-menu img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 4s ease-in-out;
+}
+
+#ramen-menu img:hover {
+    transform: scale(1.1);
+}
+
+#ramen-detail {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px orangered;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#ramen-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+form {
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
